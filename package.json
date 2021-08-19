@@ -1,0 +1,19 @@
+{
+  "name": "learn_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --features --steps --reporter mochawesome",
+    "generate:report": "node report.js"
+  },
+  "author": "robin",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.1.1",
+    "codeceptjs-cucumber-json-reporter": "^1.0.7",
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "puppeteer": "^10.2.0"
+  }
+}
